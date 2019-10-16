@@ -16,8 +16,6 @@ module.exports = function(app) {
     app.get('/users/:id', musicians.findOne);
     
     
-    app.get('/users/:id', musicians.findOne);
-    
     // List all the musicians on the Playlist
     app.get('/users', musicians.findAll);
 
